@@ -1,0 +1,36 @@
+"""
+hello pirple, this is my third assigment on if statements,
+I want to create a function with three parameters and see if two out of three are equal to each other.
+"""
+
+def Threevars(a, b, c): #creating a function
+                 if a == b:                        #checking if parameter a equals to b
+                                  print(True)
+                 else:
+                                  print (False)
+                 
+                 if a == c:                        #checking if parameter a equals to c
+                                  print(True)
+                 else:
+                                  print (False) 
+
+                 if str(a) == b:                   #checking if parameter a being converted to a string is equal to b
+                                  print(True)
+                 else:
+                                  print (False)
+
+                 if b == c:                         #checking if parameter b equals to c
+                                  print(True)
+                 else:
+                                  print (False)
+
+                 if b == str(c):                   #checking if parameter b is equal to parameter c converted to string
+                                  print(True)
+                 else:
+                                  print (False)
+
+                 if int(b) == a:                   #checking if parameter b converted to integer is equal to a
+                                  print(True)
+                 else:
+                                  print(False)
+Threevars(3, "3", 3.0)
